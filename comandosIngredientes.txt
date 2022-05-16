@@ -1,0 +1,365 @@
+    1  sudo apt install git
+    2  git version
+    3  git cole https://github.com/Lukff/revisao-html.git 
+    4  git clone https://github.com/Lukff/revisao-html.git 
+    5  ls
+    6  code revisao-html/
+    7  git version
+    8  git cole https://github.com/toti-br/aulas_2020-2/blob/master/HTML/aula_4/exemplo_1/index.html
+    9  git clone  https://github.com/toti-br/aulas_2020-2/blob/master/HTML/aula_4/exemplo_1/index.html
+   10  git cole https://github.com/toti-br/aulas_2020-2/tree/master/HTML/aula_4/exemplo_1
+   11  git clone https://github.com/toti-br/aulas_2020-2/tree/master/HTML/aula_4/exemplo_1
+   12  ls
+   13  git cole https://github.com/toti-br/aulas_2020-2/tree/master/HTML/aula_4/exemplo_1
+   14  git clone https://github.com/toti-br/aulas_2020-2/tree/master/HTML/aula_4/exemplo_1
+   15  ls
+   16  code revisao-html/
+   17  ls
+   18  pwd
+   19  cd~
+   20  cd ~
+   21  touch
+   22  clear
+   23  history
+   24  history 3
+   25  history 
+   26  ls clear
+   27  clear
+   28  cd
+   29  clear
+   30  cd
+   31  commit. text
+   32  clear
+   33  ls
+   34  pwd
+   35  mkdir
+   36  git--help
+   37  clear
+   38  git
+   39  git ststus
+   40  git config--global "manuelcatia20@gmail.com"
+   41  git config --global user.email manuelcatia20@gmail.com
+   42  git config --global user.name "Catia Manuel"
+   43  dit commit -m "[Tix no meu nome"
+   44  git commit -m "[Tix no meu nome]"
+   45  rn
+   46  rm
+   47  con --online
+   48  git log
+   49  git ststus
+   50  git commit -a
+   51  git config --global user.email manuelcatia20@gmail.com
+   52  cd
+   53  clear
+   54  ls
+   55  ls-a
+   56  pwd
+   57  cd
+   58  cd..
+   59  cd~
+   60  mkdir
+   61  mkdir [pataCatia]
+   62  mkdir-p
+   63  touch [catia]
+   64  git checkout [aplicação]
+   65  git init
+   66  git status
+   67  git add "Meu código.txt"
+   68  git status
+   69  git commit -m "commit inicial"
+   70  git config --global user.email "mauelcatia20@gmail.com"
+   71  git config --global user.name "Catia Manuel"
+   72  git commit -m "commit inicial"
+   73  git push
+   74  git remote add origin https://github.com/CatiaManuel0310/Projeto-1--Catia
+   75  git push
+   76  git push --set-upstream origin master
+   77  User@DESKTOP-T9G1CNM MINGW64 ~/Desktop/projeto Catia
+   78  $
+   79  User@DESKTOP-T9G1CNM MINGW64 ~/Desktop/projeto Catia
+   80  $ git init
+   81  Initialized empty Git repository in C:/Users/User/Desktop/projeto Catia/.git/
+   82  User@DESKTOP-T9G1CNM MINGW64 ~/Desktop/projeto Catia (master)
+   83  $ git status
+   84  On branch master
+   85  No commits yet
+   86  Untracked files:
+   87    (use "git add <file>..." to include in what will be committed)
+   88          "Meu c\303\263digo.txt"
+   89  nothing added to commit but untracked files present (use "git add" to track)
+   90  User@DESKTOP-T9G1CNM MINGW64 ~/Desktop/projeto Catia (master)
+   91  $ git add "Meu código.txt"
+   92  User@DESKTOP-T9G1CNM MINGW64 ~/Desktop/projeto Catia (master)
+   93  $ git status
+   94  On branch master
+   95  No commits yet
+   96  Changes to be committed:
+   97    (use "git rm --cached <file>..." to unstage)
+   98          new file:   "Meu c\303\263digo.txt"
+   99  User@DESKTOP-T9G1CNM MINGW64 ~/Desktop/projeto Catia (master)
+  100  $ git commit -m "commit inicial"
+  101  [master (root-commit) 89ecb56] commit inicial
+  102   1 file changed, 1 insertion(+)
+  103   create mode 100644 "Meu c\303\263digo.txt"
+  104  User@DESKTOP-T9G1CNM MINGW64 ~/Desktop/projeto Catia (master)
+  105  $ git config --global user.email "mauelcatia20@gmail.com"
+  106  User@DESKTOP-T9G1CNM MINGW64 ~/Desktop/projeto Catia (master)
+  107  $ git config --global user.name "Catia Manuel"
+  108  User@DESKTOP-T9G1CNM MINGW64 ~/Desktop/projeto Catia (master)
+  109  $ git commit -m "commit inicial"
+  110  On branch master
+  111  nothing to commit, working tree clean
+  112  User@DESKTOP-T9G1CNM MINGW64 ~/Desktop/projeto Catia (master)
+  113  $ git push
+  114  fatal: No configured push destination.
+  115  Either specify the URL from the command-line or configure a remote repository using
+  116      git remote add <name> <url>
+  117  and then push using the remote name
+  118      git push <name>
+  119  User@DESKTOP-T9G1CNM MINGW64 ~/Desktop/projeto Catia (master)
+  120  $ git remote add origin https://github.com/CatiaManuel0310/Projeto-1--Catia
+  121  User@DESKTOP-T9G1CNM MINGW64 ~/Desktop/projeto Catia (master)
+  122  $ git push
+  123  fatal: The current branch master has no upstream branch.
+  124  To push the current branch and set the remote as upstream, use
+  125      git push --set-upstream origin master
+  126  User@DESKTOP-T9G1CNM MINGW64 ~/Desktop/projeto Catia (master)
+  127  $ git push --set-upstream origin master
+  128  ssh-keygen -t rsa -b 4096 -c "[manuelcatia20@gmail.com]"
+  129  clear
+  130  git init 
+  131  git add README.md 
+  132  git commit -m "first commit" 
+  133  git branch -M main 
+  134  git remote add origin https://github.com/ CatiaManuel0310/Meu-repositorio-de-aula-Toti.git
+  135   git push -u origen principal
+  136  git remote add origin https://github.com/CatiaManuel0310/Meu-repositorio-de-aula-Toti.git
+  137  git status
+  138  git add " Meu repositorio Toti". txt
+  139  git status
+  140  git add .
+  141  git status
+  142  git init
+  143  https://github.com/CatiaManuel0310/Meu-repositorio-de-aula-Toti/invitations
+  144  git status
+  145  clear
+  146  ls
+  147  ls -a
+  148  ls..
+  149  ls ..
+  150  pwd
+  151  ls
+  152  cd desktop/
+  153  cd Desktop/
+  154  cd ..
+  155  cd ~
+  156  cd D
+  157  cd Desktop/
+  158  mkdir comandos
+  159  ls
+  160  cd comandos/
+  161  mkdir pasta nova
+  162  mkdir `pasta nova´
+  163  mkdir pasta nova
+  164  ls
+  165  cd ..
+  166  mkdir "pasta nova"
+  167  cd~
+  168  mkdir -p Caldo Branco
+  169  ls
+  170  ls -a
+  171  ls ..
+  172  pwd
+  173  ls
+  174  cd Deskyop/
+  175  pwd
+  176  cd ..
+  177  cd ~
+  178  mkdircomandos
+  179  ls
+  180  cd comandos
+  181  mkdir pasta nova
+  182  ls
+  183  mkdir "pasta nova"
+  184  ls
+  185  mkdir -p New/old
+  186  ls
+  187  ls new
+  188  ls New
+  189  rm -r nova pasta
+  190  rn -r new
+  191  ls
+  192  mv "pasta nova" pasta-nova
+  193  ls
+  194  mkdir new
+  195  mkdir new pasta_nova/
+  196  ls
+  197  ls
+  198  touch arquivo.txt
+  199  ls
+  200  ls pasta_nova/
+  201  cp arquivo.txt pasta_nova/
+  202  ls
+  203  echo "Mensagem"
+  204  echo "mensagem" > comando.txt
+  205  cat comando.txt
+  206  cat
+  207  cat > comando.txt
+  208  cd comandos.txt
+  209  cat comandos.txt
+  210  cat comando.txt
+  211  c
+  212  cat > comando.txt
+  213  help cd
+  214  histtory
+  215  history
+  216  history 15
+  217  history 8
+  218  history > hidtorico.txt
+  219  cat historico.txt
+  220  cat historico.txt
+  221  cat comando.txt
+  222  cat comandos.txt
+  223  clear
+  224  git config --global user.name "Catia Manuel"
+  225  git config --global user.email "manuelcatia202gmail.com"
+  226  git config --global user.email 'manuelcatia20@gmail.com"
+  227  git config --global user.name "Catia Manuel"
+  228  git config --global user.email "manuelcatia20@gmail.com"
+  229  git config user.name
+  230  git config user.email
+  231  cd Desktop/
+  232  cd caldo de mancara_git/
+  233  git init
+  234  git staus
+  235  echo " Aprender a usar o Git" > readme.md
+  236  echo `aprender a usar o git` > readme.md
+  237  git status
+  238  echo `Aprender a usar o Git´ readme.md
+  239  clear
+  240  git init
+  241  git status
+  242  cd Desktop/
+  243  mkdir Curso_Git
+  244  cd Curso_Git
+  245  cd Curso_Git/
+  246   git config user.name
+  247  git init
+  248  echo `Aprender a usar o Git´ > readme.md
+  249  clear
+  250  git init
+  251  git status
+  252  echo `Aprender a usar o Git´ > readme.md
+  253  echo "aprender bem" > readme.md
+  254  git add readme.md
+  255  git status
+  256  git commit -m `commit inicial`
+  257  git commit -m `commit inicial´
+  258  git init
+  259  git remote add origin https://github.com/CatiaManuel0310/Ola-Mundo-Aqui.git
+  260  git remote
+  261  git push origin master
+  262  clear
+  263  git remote add origin https://github.com/CatiaManuel0310/Curso-Git-1.git
+  264  git remote
+  265  git push origin master
+  266  clear
+  267  git init
+  268  git init
+  269  git status
+  270  git add "Ingredientes.txt
+  271  ssh-keygem -t rsa -b 4096 -c "manuelcatia20@gmail.com"
+  272  clear
+  273  ssh-keygen -t rsa -b 4096 -c "manuelcatia20@gmail.com"
+  274  clear
+  275  ssh-keygen -t rsa -b 4096 -C "manuelcatia20@gmail.com"
+  276  ls ~/. ssh
+  277  ls ~/ .ssh
+  278  ls ~/.ssh
+  279  cat ~/.ssh/id_rsa.pub
+  280  cd ..
+  281  mkdir clone
+  282  cd clone/
+  283  ls -a
+  284  git clone git@github.com:CatiaManuel0310/Aula07.git
+  285  ls -a
+  286  cd aula07
+  287  git logpg
+  288  git --help
+  289  ls
+  290  git init
+  291  clear
+  292  git init
+  293  git log --pretty =online
+  294  git ststus
+  295  git --help
+  296  git config --global user.name "Catia Manuel"
+  297  git config --global user.email "manuelcatia20@gmail.com"
+  298  git status
+  299  git add
+  300  git init
+  301  git commit user.name "Catia Manuel"
+  302  clear
+  303  git init
+  304  git cofing user.name "Catia Manuel"
+  305  git config user.name "Catia Manuel"
+  306  git config user.email "manuelcatia20@gmail.com"
+  307  git config.alias.lg --online--decorate--grapg--all"
+  308  git config alias.lg --online --decorate --grapg --all"
+  309  git status
+  310  git init
+  311  git config user.name "Catia Manuel"
+  312  git config user.email "manuelcatia20@gmail.com"
+  313  git status
+  314  git add .
+  315  git status
+  316  git commit -m "commit inicial de Ingredientes de caldo branco"
+  317  git status
+  318  git status
+  319  git add .
+  320  git commit -m "arquivo ingredientes modificado no master"
+  321  git status
+  322  git checkout -b "modo de prepar"
+  323  git checkout -b "modoDePreparar"
+  324  git status
+  325  git status
+  326  git add .
+  327  git commit -m "Explicar o modo de preparar"
+  328  git status
+  329  git checkout master
+  330  git merge master
+  331  git status
+  332  git log
+  333  git commit 
+  334  git merge Ingredientes
+  335  git merge modoDePreparar
+  336  git status
+  337  git push --set -upstream origin master
+  338  git push -up origin master
+  339  git push
+  340  git push -u origin master
+  341  git checkout master
+  342  git merge modoDePreparar
+  343  git push
+  344  git config --global user.name 'Catia Manuel"
+  345  git init
+  346  git config --global user.name "Catia Manuel"
+  347  git config --global user.email "manuelcatia20@gmail.com"
+  348  git status
+  349  git log
+  350  git push
+  351  git checkout modoDePreparar
+  352  git status
+  353  git log
+  354  git status
+  355  git add .
+  356  git commit -m
+  357  git commit 
+  358  git commit -m "modificação na branch"
+  359  git status
+  360  git checkout master
+  361  git merge modoDePreparar
+  362  git push
+  363  git push -u origin master
+  364  git pull
+  365  history > comandosIngredientes.txt
