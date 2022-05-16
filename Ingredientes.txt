@@ -10,3 +10,8 @@ caldo de galinha
 cebola
 pimentão
 salsinha
+
+#modo de preparar
+escamar peixe
+lavar os ingredientes
+cortar os ingredientes
